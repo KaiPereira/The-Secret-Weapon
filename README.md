@@ -4,4 +4,6 @@
 
 The Secret Weapon is a collaborative event where highschoolers each design and add a unique feature to a massive shared PCB.
 
-If you're a highschooler and want to add in your feature, join the slack channel #The-Secret-Weapon through Hackclub to find the active discussion and then follow the submission process!
+If you'd like to contribute to the board, check out the [submissions](/SUBMISSION.md) page!
+
+(not ready yet, coming soon)
