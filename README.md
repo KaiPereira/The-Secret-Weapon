@@ -5,3 +5,5 @@
 The Secret Weapon is a collaborative event where highschoolers each design and add a unique feature to a massive shared PCB.
 
 If you'd like to contribute to the board, check out the [submissions](/SUBMISSION.md) page!
+
+(not ready yet, coming soon)
