@@ -3873,10 +3873,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "58836ecd-d397-4e30-9319-46dc78d4c455")
 		(property "Reference" "J2"
-			(at 33.02 34.29 0)
+			(at 33.02 30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3884,14 +3883,14 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 33.02 36.83 0)
+			(at 33.02 33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
 			(at 33.02 43.18 0)
 			(effects
 				(font
@@ -3916,6 +3915,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part" "1935776"
+			(at 33.02 36.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"

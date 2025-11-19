@@ -4855,7 +4855,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
 			(at 68.58 213.36 0)
 			(effects
 				(font
@@ -6955,7 +6955,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_TXC_7A-2Pin_5x3.2mm"
 			(at 68.58 179.07 0)
 			(effects
 				(font
@@ -6982,7 +6982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "X49SM8MSD2SC"
+		(property "Part" "X50328MSB2GI"
 			(at 68.58 173.228 90)
 			(effects
 				(font
