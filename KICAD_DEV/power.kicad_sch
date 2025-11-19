@@ -2439,6 +2439,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Probably change to fuse holder"
+		(exclude_from_sim no)
+		(at 50.546 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "58c875ad-86d2-4e88-8994-ebf0b2ade7f4")
+	)
 	(junction
 		(at 182.88 39.37)
 		(diameter 0)
@@ -4032,7 +4042,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_Blade_Mini_directSolder"
 			(at 49.53 42.418 90)
 			(effects
 				(font
@@ -4082,10 +4092,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6bda4c0c-fe5d-4477-a9ba-ac2014bd5bee")
 		(property "Reference" "L1"
-			(at 138.43 34.29 90)
+			(at 138.43 31.242 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4093,14 +4102,14 @@
 			)
 		)
 		(property "Value" "6.8uH"
-			(at 138.43 36.83 90)
+			(at 138.43 33.782 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_TechFuse_SL0650"
 			(at 138.43 39.37 0)
 			(effects
 				(font
@@ -4125,6 +4134,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part" "SMMS0650-6R8M"
+			(at 138.43 36.322 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -5180,7 +5197,7 @@
 		(dnp no)
 		(uuid "c4da9898-fd6d-4213-bd5f-a99737b22509")
 		(property "Reference" "C1"
-			(at 57.658 43.18 0)
+			(at 60.452 43.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5189,7 +5206,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 57.658 48.26 0)
+			(at 60.452 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5197,7 +5214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_Elec_8x6.2"
 			(at 58.1152 49.53 0)
 			(effects
 				(font
@@ -5222,6 +5239,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part" "25SVPF100M"
+			(at 66.802 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5317,7 +5342,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d719a8e7-2748-492f-9333-63b915bc7c98")
 		(property "Reference" "U3"
 			(at 120.65 34.29 0)
@@ -5360,6 +5384,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Current" "4A Continuous, 5A Max"
+			(at 120.65 27.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -5424,7 +5456,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kai's library:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 44.45 102.87 0)
 			(effects
 				(font
