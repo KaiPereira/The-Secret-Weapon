@@ -4277,7 +4277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 230.8352 77.47 0)
 			(effects
 				(font
@@ -4346,7 +4346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 252.4252 77.47 0)
 			(effects
 				(font
@@ -4769,7 +4769,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_Blade_Mini_directSolder"
+		(property "Footprint" "Fuse:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165"
 			(at 59.69 69.088 90)
 			(effects
 				(font
@@ -6249,7 +6249,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kai's library:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 54.61 129.54 0)
 			(effects
 				(font
