@@ -4283,7 +4283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_Elec_10x10.2"
+		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x5.8"
 			(at 73.3552 77.47 0)
 			(effects
 				(font
@@ -4310,7 +4310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "RVT1E101M0607"
+		(property "Part" "MA25V100M6x6"
 			(at 84.074 75.946 0)
 			(effects
 				(font
