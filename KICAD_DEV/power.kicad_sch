@@ -2715,16 +2715,6 @@
 		)
 		(uuid "06e68d72-54bd-40a6-9b2d-082941824ed6")
 	)
-	(text "Probably change to fuse holder"
-		(exclude_from_sim no)
-		(at 60.706 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "58c875ad-86d2-4e88-8994-ebf0b2ade7f4")
-	)
 	(text "For high current applications, please use the higher voltage rails!"
 		(exclude_from_sim no)
 		(at 51.308 29.464 0)
@@ -5998,7 +5988,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "1000uF"
 			(at 70.612 72.39 0)
 			(effects
 				(font
@@ -6007,7 +5997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_Elec_8x6.2"
+		(property "Footprint" "Capacitor_SMD:C_Elec_10x10.2"
 			(at 68.2752 76.2 0)
 			(effects
 				(font
@@ -6034,8 +6024,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "25SVPF100M"
-			(at 76.962 74.93 0)
+		(property "Part" "EEH-ZS1E102UP"
+			(at 78.994 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
