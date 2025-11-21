@@ -4812,6 +4812,14 @@
 				)
 			)
 		)
+		(property "Power" "12V, 15A, PSU"
+			(at 38.354 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "dba3397a-687a-4669-a026-38df622d8169")
 		)
