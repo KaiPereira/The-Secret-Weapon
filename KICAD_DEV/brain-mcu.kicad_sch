@@ -3518,9 +3518,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Please create a new hierarchial sheet in the root schematic, not this one if you're adding stuff!"
+	(text "Please use your designated sheet for components, unless you really have something specific you want to add!"
 		(exclude_from_sim no)
-		(at 222.504 64.77 0)
+		(at 222.758 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3528,9 +3528,19 @@
 		)
 		(uuid "5937fc44-b866-48b8-b710-c596c59914b1")
 	)
+	(text "Try not to move other people's pins, ask for permission from them if you need a specific peripheral!"
+		(exclude_from_sim no)
+		(at 222.25 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d33826fd-fdc7-4241-a99c-a76639d2bba0")
+	)
 	(text "IIf this SoC get's full, feel free to add a new one (just not too big!)"
 		(exclude_from_sim no)
-		(at 222.25 70.612 0)
+		(at 222.504 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3540,7 +3550,7 @@
 	)
 	(text "Please don't alter anything aside from the GPIO's without permission!"
 		(exclude_from_sim no)
-		(at 222.758 58.674 0)
+		(at 223.012 51.054 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -3858,6 +3868,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 107.95) (xy 245.11 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d1e36f7-1970-45ff-aa76-5b766c78e06f")
+	)
+	(wire
+		(pts
 			(xy 60.96 138.43) (xy 63.5 138.43)
 		)
 		(stroke
@@ -3875,6 +3895,16 @@
 			(type default)
 		)
 		(uuid "1dd733c8-f107-4f0d-9253-f0811a83c23b")
+	)
+	(wire
+		(pts
+			(xy 247.65 115.57) (xy 245.11 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20647535-e48b-4b7a-9298-e29835d2b317")
 	)
 	(wire
 		(pts
@@ -4218,6 +4248,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 113.03) (xy 245.11 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "712dd72b-aa74-4206-b788-a7fd43d20c7e")
+	)
+	(wire
+		(pts
 			(xy 223.52 234.95) (xy 223.52 232.41)
 		)
 		(stroke
@@ -4305,6 +4345,16 @@
 			(type default)
 		)
 		(uuid "80053e4a-907b-41cd-a9e6-dcae05386802")
+	)
+	(wire
+		(pts
+			(xy 247.65 123.19) (xy 245.11 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80f04491-9ec1-42e3-b4b9-64f01cc075ba")
 	)
 	(wire
 		(pts
@@ -4428,6 +4478,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 120.65) (xy 245.11 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad9d7291-ea6c-41ec-8ebe-e08a51632fe6")
+	)
+	(wire
+		(pts
 			(xy 95.25 69.85) (xy 95.25 68.58)
 		)
 		(stroke
@@ -4465,6 +4525,16 @@
 			(type default)
 		)
 		(uuid "b7143fe9-499a-4721-b56d-7582bcc4635e")
+	)
+	(wire
+		(pts
+			(xy 247.65 110.49) (xy 245.11 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b86490bf-8e81-4d09-b323-4381f1541515")
 	)
 	(wire
 		(pts
@@ -4555,6 +4625,16 @@
 			(type default)
 		)
 		(uuid "cca6f9b3-7627-4c36-992e-a332450ca539")
+	)
+	(wire
+		(pts
+			(xy 247.65 118.11) (xy 245.11 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceb0ba56-c406-4931-90c9-941ecb3105d4")
 	)
 	(wire
 		(pts
@@ -4655,6 +4735,28 @@
 			(type default)
 		)
 		(uuid "fc3d04d0-8349-499b-9483-7c69cd4b81cd")
+	)
+	(global_label "TMC2209_STEP"
+		(shape input)
+		(at 247.65 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "14d97571-278e-424c-9892-45b1087e6349")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.7259 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "RESET"
 		(shape input)
@@ -4798,6 +4900,28 @@
 			)
 		)
 	)
+	(global_label "TMC2209_DIAG"
+		(shape input)
+		(at 247.65 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a7fdefe-97b0-4797-9f54-f0fdd75c79df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.3632 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "OSC32_OUT"
 		(shape output)
 		(at 247.65 222.25 0)
@@ -4842,6 +4966,50 @@
 			)
 		)
 	)
+	(global_label "TMC2209_EN"
+		(shape input)
+		(at 247.65 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98a5163e-a0c0-42b1-a8a4-37cc8c5770bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.6093 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TMC2209_TX"
+		(shape input)
+		(at 247.65 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9a15e0bf-2119-45e5-9f3d-99e11b5ad306")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.3069 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D+"
 		(shape input)
 		(at 247.65 128.27 0)
@@ -4865,6 +5033,72 @@
 		)
 		(property "Netclass" "USB"
 			(at 247.65 130.4608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TMC2209_DIR"
+		(shape input)
+		(at 247.65 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b08f2df8-153f-438a-9071-b53e6222f5f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 263.2746 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TMC2209_INDEX"
+		(shape input)
+		(at 247.65 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b93913aa-0083-4826-ab63-4ae7e08c1bc3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 265.6936 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TMC2209_RX"
+		(shape input)
+		(at 247.65 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c25512c6-f9c1-4201-aec8-9782c50f73e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.6093 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)

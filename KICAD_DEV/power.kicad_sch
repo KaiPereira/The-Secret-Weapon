@@ -2705,9 +2705,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Please don't directly mess with these unless you have specific permission!"
+	(text "Please don't directly mess with these unless you have specific permission or just know what you're doing!"
 		(exclude_from_sim no)
-		(at 73.66 22.098 0)
+		(at 97.282 21.844 0)
 		(effects
 			(font
 				(size 1.905 1.905)
