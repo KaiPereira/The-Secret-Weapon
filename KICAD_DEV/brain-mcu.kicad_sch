@@ -4118,6 +4118,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 100.33) (xy 245.11 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41ea4a64-6218-40d5-861e-5de32d80613a")
+	)
+	(wire
+		(pts
 			(xy 87.63 69.85) (xy 95.25 69.85)
 		)
 		(stroke
@@ -4288,6 +4298,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 194.31) (xy 245.11 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a2fa257-315f-47b1-b806-39ad84cb6815")
+	)
+	(wire
+		(pts
 			(xy 64.77 69.85) (xy 64.77 68.58)
 		)
 		(stroke
@@ -4328,6 +4348,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 97.79) (xy 245.11 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f6f185d-5e7e-4413-999a-6821486edf93")
+	)
+	(wire
+		(pts
 			(xy 68.58 209.55) (xy 78.74 209.55)
 		)
 		(stroke
@@ -4345,16 +4375,6 @@
 			(type default)
 		)
 		(uuid "80053e4a-907b-41cd-a9e6-dcae05386802")
-	)
-	(wire
-		(pts
-			(xy 247.65 123.19) (xy 245.11 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80f04491-9ec1-42e3-b4b9-64f01cc075ba")
 	)
 	(wire
 		(pts
@@ -4475,16 +4495,6 @@
 			(type default)
 		)
 		(uuid "ad022650-1f1f-4902-9d09-8546616eec2b")
-	)
-	(wire
-		(pts
-			(xy 247.65 120.65) (xy 245.11 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad9d7291-ea6c-41ec-8ebe-e08a51632fe6")
 	)
 	(wire
 		(pts
@@ -4628,16 +4638,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 118.11) (xy 245.11 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceb0ba56-c406-4931-90c9-941ecb3105d4")
-	)
-	(wire
-		(pts
 			(xy 184.15 218.44) (xy 194.31 218.44)
 		)
 		(stroke
@@ -4736,28 +4736,6 @@
 		)
 		(uuid "fc3d04d0-8349-499b-9483-7c69cd4b81cd")
 	)
-	(global_label "TMC2209_STEP"
-		(shape input)
-		(at 247.65 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "14d97571-278e-424c-9892-45b1087e6349")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.7259 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RESET"
 		(shape input)
 		(at 196.85 97.79 180)
@@ -4820,6 +4798,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TMC2209_INDEX"
+		(shape input)
+		(at 247.65 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21990a51-47cb-4cd1-9c0a-bef039ba6f75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 265.6936 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4900,28 +4900,6 @@
 			)
 		)
 	)
-	(global_label "TMC2209_DIAG"
-		(shape input)
-		(at 247.65 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6a7fdefe-97b0-4797-9f54-f0fdd75c79df")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.3632 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "OSC32_OUT"
 		(shape output)
 		(at 247.65 222.25 0)
@@ -4966,6 +4944,50 @@
 			)
 		)
 	)
+	(global_label "TMC2209_DIR"
+		(shape input)
+		(at 247.65 194.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7bd542ba-34e1-487d-bb0b-ffdfd52478de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 263.2746 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TMC2209_STEP"
+		(shape input)
+		(at 247.65 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85f92c86-32b4-478e-9afd-5b5f9fe03965")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.7259 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TMC2209_EN"
 		(shape input)
 		(at 247.65 113.03 0)
@@ -4979,28 +5001,6 @@
 		(uuid "98a5163e-a0c0-42b1-a8a4-37cc8c5770bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 262.6093 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TMC2209_TX"
-		(shape input)
-		(at 247.65 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9a15e0bf-2119-45e5-9f3d-99e11b5ad306")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.3069 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5042,9 +5042,9 @@
 			)
 		)
 	)
-	(global_label "TMC2209_DIR"
+	(global_label "TMC2209_TX"
 		(shape input)
-		(at 247.65 115.57 0)
+		(at 247.65 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5052,9 +5052,9 @@
 			)
 			(justify left)
 		)
-		(uuid "b08f2df8-153f-438a-9071-b53e6222f5f8")
+		(uuid "ad7bb3f7-58bc-4e8b-b761-428e6a833760")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.2746 115.57 0)
+			(at 262.3069 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5064,7 +5064,7 @@
 			)
 		)
 	)
-	(global_label "TMC2209_INDEX"
+	(global_label "TMC2209_DIAG"
 		(shape input)
 		(at 247.65 110.49 0)
 		(fields_autoplaced yes)
@@ -5074,9 +5074,9 @@
 			)
 			(justify left)
 		)
-		(uuid "b93913aa-0083-4826-ab63-4ae7e08c1bc3")
+		(uuid "af3e0fd3-1ff0-4b66-bd0f-9de76330306d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.6936 110.49 0)
+			(at 264.3632 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5088,7 +5088,7 @@
 	)
 	(global_label "TMC2209_RX"
 		(shape input)
-		(at 247.65 123.19 0)
+		(at 247.65 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5096,9 +5096,9 @@
 			)
 			(justify left)
 		)
-		(uuid "c25512c6-f9c1-4201-aec8-9782c50f73e2")
+		(uuid "baed2c61-add1-424f-99a3-7795a8c7406f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.6093 123.19 0)
+			(at 262.6093 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
