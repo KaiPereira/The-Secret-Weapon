@@ -1278,6 +1278,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "@KaiPereira - kaipereira.com"
+		(exclude_from_sim no)
+		(at 182.372 45.212 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "b334aac2-6214-474d-aa70-eb9be8226b80")
+	)
 	(text "TMC2209"
 		(exclude_from_sim no)
 		(at 184.912 117.602 0)
@@ -1999,7 +2009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 159.512 133.35 90)
 			(effects
 				(font
@@ -2199,7 +2209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 169.672 133.35 90)
 			(effects
 				(font
@@ -2334,7 +2344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 165.862 102.87 90)
 			(effects
 				(font
@@ -2468,7 +2478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 164.592 133.35 90)
 			(effects
 				(font
@@ -2536,7 +2546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 191.77 118.11 0)
 			(effects
 				(font
@@ -2624,7 +2634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 132.842 113.03 90)
 			(effects
 				(font
@@ -2694,7 +2704,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 239.7252 91.44 0)
 			(effects
 				(font
@@ -2963,7 +2973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 177.8 118.11 0)
 			(effects
 				(font
@@ -3118,7 +3128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 180.34 107.95 0)
 			(effects
 				(font
@@ -3319,7 +3329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 132.842 123.19 90)
 			(effects
 				(font
@@ -3388,7 +3398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_Elec_8x6.2"
 			(at 214.3252 91.44 0)
 			(effects
 				(font
@@ -3407,6 +3417,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 213.36 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "SPT1EM221F09TRVZC"
 			(at 213.36 87.63 0)
 			(effects
 				(font
@@ -3458,7 +3477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical"
 			(at 217.17 115.57 0)
 			(effects
 				(font
