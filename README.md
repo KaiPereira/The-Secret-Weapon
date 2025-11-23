@@ -6,7 +6,9 @@ You've been tasked with building the secret weapon, your goal is simple: Help bu
 
 **Try to read all of this before adding something to the board, it's important information!**
 
-It's as simple as this:
+First off, all the submissions will get 25 tickets, and 10% prototype progress! If you add something really, really cool, I might be able to hand out more tickets, but submit your component, before asking me!
+
+Submission is as simple as this:
 
 * Put your name down for what schematic sheet you're working on (so we don't have merge conflicts) in the canvas in #The-Secret-Weapon on Slack! If you don't want to be on Slack, you can probably work backwards in the sheets, like start at 100 or something!
 * Fork/clone the repository
@@ -48,4 +50,5 @@ If you need any help, or to verify anything, feel free to put it in this channel
 Also feel free to customize your schematic sheet by adding text, and also add some cool silkscreen or drawings underneath your components.
 
 **PLEASE KEEP ALL COMPONENTS TO THE TOP LAYER**, we want to make our board easily manufacturable and there's very few things that need components on both sides.
+
 
