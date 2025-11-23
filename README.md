@@ -8,7 +8,7 @@ You've been tasked with building the secret weapon, your goal is simple: Help bu
 
 It's as simple as this:
 
-* Put your name down for what schematic sheet you're working on (so we don't have merge conflicts)
+* Put your name down for what schematic sheet you're working on (so we don't have merge conflicts) in the canvas in #The-Secret-Weapon on Slack! If you don't want to be on Slack, you can probably work backwards in the sheets, like start at 100 or something!
 * Fork/clone the repository
 * Go into the schematic sheet you put yourself down for and rename it to your name + what you're working on!
 * Wire up your component in the schematic (don't mess with other people's schematics without specific permission, unless they've added like an MCU or something), please don't add components that costs more than $5, so that we can get this thing made hopefully affordably!
@@ -35,11 +35,11 @@ The PCB stackup (how the layers are organized) is:
 * BOTTOM/SIGNAL - Use this for routing!!! Don't put components on it though, but you're free to add silkscreen to it!
 
 
-If any of your components need power or ground, you can just put a via down to either the ground or power layers. You can see how I did this with the TMC2209 driver I added in the very top left of the board!
+If any of your components need power or ground, you can just put a via down to either the ground or power layers. You can see how I did this with the TMC2209 stepstick driver I added in the very top left of the board!
 
 Let's embrace the chaos, but try to make sure that whatever you're doing is actually wired/routed properly so we don't ruin the board for everyone else. When you make your PR, I might modify it a bit to work properly if I see something that's wrong, and it might also need to be re-routed if I'm behind on merging PR's! Also run DRC and check your part of the PCB, I'll also be fixing some of these if need be.
 
-Try also not to add anything crazy big that takes up like a quarter for the board, or something that intentionally hoards power all the time, keep everyone else in mind with your components! Try to keep your components to like one big thing, and then you can add like decoupling, passives, etc. If there's no more I/O's left, you'll need to add an MCU, or wait for someone else to add one!
+Try also not to add anything crazy big that takes up like a quarter for the board, or something that intentionally hoards power all the time, keep everyone else in mind with your components! Try to keep your components to like one big thing, and then you can add like decoupling, passives, etc. If there's no more I/O's left, you'll need to add an MCU, or wait for someone else to add one! Also try to add the manufacturer numbers, you can fine this under MFR.Part # on JLC/LCSC, for example https://jlcpcb.com/partdetail/471340-TMC2209LA/C465949 is TMC2209-LA!
 
 Try not to move other people's pins around on the MCU's, or mess with the root systems unless you know what you're doing, some people need specific peripherals!
 
@@ -48,3 +48,4 @@ If you need any help, or to verify anything, feel free to put it in this channel
 Also feel free to customize your schematic sheet by adding text, and also add some cool silkscreen or drawings underneath your components.
 
 **PLEASE KEEP ALL COMPONENTS TO THE TOP LAYER**, we want to make our board easily manufacturable and there's very few things that need components on both sides.
+
