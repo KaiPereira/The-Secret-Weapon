@@ -1,0 +1,40 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ---- Virtual Environments ----
+.env/
+.venv/
+venv/
+ENV/
+env/
+
+# ---- Environment Variables (secrets) ----
+*.env
+.env.local
+
+# ---- SQLite database ----
+queue.db
+*.sqlite
+*.sqlite3
+
+# ---- Logs ----
+*.log
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+
+# ---- Editors ----
+.vscode/
+.idea/
+
+# ---- Railway specific ----
+.nixpacks/
+
